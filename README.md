@@ -17,7 +17,7 @@ Welcome to the **BOIII Tool**, a powerful and intuitive application designed to 
 
 ## Download
 
-You can download the latest release of the BOIII Tool from the [Releases page](https://github.com/yourusername/BOIII-TOOL/releases).
+You can download the latest release of the BOIII Tool from the [Releases page](https://github.com/Frozedy/BOIII-TOOL/releases).
 
 ## Installation
 
