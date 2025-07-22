@@ -33,10 +33,6 @@ You can download the latest release of the BOIII Tool from the [Releases page](h
    ```bash
    BOIII_TOOL.exe
    ```
-**Note**: If the app doesn't work, ensure all dependencies are installed by running:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
