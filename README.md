@@ -1,51 +1,43 @@
 # BOIII Tool
 
-Welcome to the **BOIII Tool**, a powerful and intuitive application designed to enhance your BOIII gaming experience. This tool provides a suite of features to manage, optimize, and troubleshoot your BOIII installation with ease.
+A comprehensive repair, guide, and management tool for **BOIII (Black Ops III Custom Client)**. Helps fix crashes, verify game files, manage servers, install mods, and provides guides for common issues. Designed to enhance your BOIII gaming experience with a suite of powerful tools.
+
+---
 
 ## Key Features
 
-- **Game Management**: Easily download, install, and remove BOIII with a single click. Manage multiple versions of the game effortlessly.
-- **Server Setup**: Quickly create and configure BOIII servers for multiplayer gaming. Customize server settings, manage player slots, and optimize performance.
-- **File Verification**: Ensure your game files are complete and uncorrupted. Detect and fix missing or damaged files with a single click.
-- **Legacy Support**: Access and manage older versions of BOIII. Download and install legacy builds for compatibility or nostalgia.
-- **Mod Support**: Install and manage BOIIIWD mods for custom content. Browse, install, and update mods with ease.
-- **Troubleshooting Guides**: Step-by-step solutions for common issues like crashes, black screens, and connection problems. Get back to gaming faster with expert guidance.
-- **Multiplayer Setup**: Detailed guides for playing with friends online. Configure ports, set up lobbies, and troubleshoot connection issues.
-- **DLC Management**: Information and tools for managing BO3 DLCs. Install, update, and troubleshoot DLC content seamlessly.
-- **Language Support**: Switch between different game languages effortlessly. Customize your gaming experience with localized content.
-- **Performance Enhancements**: Tools to improve game performance and reduce stuttering. Optimize settings for smoother gameplay.
+### Game Management
+- **Install & Remove** – Easily download, install, and remove BOIII with a single click.  
+- **Version Management** – Manage multiple versions of the game effortlessly.  
+- **Legacy Support** – Access and install older builds for compatibility or nostalgia.  
 
-## Download
+### Server Setup
+- **Server Creator** – Quickly create and configure BOIII servers for multiplayer gaming.  
+- **Server Customization** – Manage player slots, optimize performance, and customize server settings.  
 
-You can download the latest release of the BOIII Tool from the [Releases page](https://github.com/Frozedy/BOIII-TOOL/releases).
+### File & DLC Management
+- **File Verification** – Ensure your game files are complete and uncorrupted. Detect and fix missing or damaged files with one click.  
+- **DLC Management** – Install, update, and troubleshoot BO3 DLCs seamlessly.  
 
-## Installation
+### Mod Support
+- **BOIIIWD Mods** – Browse, install, and update mods for custom content easily.  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/BOIII-TOOL.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd BOIII-TOOL
-   ```
-3. Run the application:
-   ```bash
-   BOIII_TOOL.exe
-   ```
+### Troubleshooting
+- **Crash & Bug Fixes** – Step-by-step solutions for common issues like crashes, black screens, audio problems, and connection issues.  
+- **Multiplayer Setup Guides** – Configure ports, set up lobbies, and troubleshoot online play with friends.  
+- **Performance Enhancements** – Tools to improve game performance and reduce stuttering.  
 
-## Usage
+### Customization
+- **Language Support** – Switch between different languages effortlessly.  
 
-Launch the application and use the intuitive interface to access all features. The tool provides clear instructions and guides for each function.
+---
 
-## Contributing
+## Building
 
-Contributions are welcome! If you'd like to contribute, please reach out to the author for permission and guidelines. We appreciate your interest in improving this project.
+**Requirements:**
+- Visual Studio 2022  
+- Windows 10/11 SDK  
 
-## License
-
-This project is licensed under a proprietary license. While the source code is available for viewing, unauthorized copying, modification, distribution, or use of this software is prohibited without the express written permission of the copyright holder.
-
-## Acknowledgments
-
-This project was developed solely by Frozedy. Special thanks to the EZZ BOIII community for their support and feedback.
+```batch
+setup.bat      # Download dependencies (WebView2, RapidJSON)
+generate.bat   # Generate Visual Studio solution

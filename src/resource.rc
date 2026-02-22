@@ -1,0 +1,5 @@
+#include "resource.h"
+
+IDI_APP_ICON ICON "..\\src\\app.ico"
+IDR_VERIFICATION RCDATA "..\\src\\verification.json"
+

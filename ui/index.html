@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOIII Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-left">
+                <h1 class="logo">BOIII Tool</h1>
+                <span class="version">v1.5.2</span>
+                <span class="author">Made by Frozedy</span>
+            </div>
+            <div class="header-center">
+                <label class="path-label">Game Path:</label>
+                <input type="text" id="game-path" class="path-input" placeholder="C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III">
+                <button id="browse-path" class="btn btn-small">Browse</button>
+            </div>
+            <div class="header-right">
+                <button id="discord-btn" class="btn btn-discord">Join Discord</button>
+            </div>
+        </header>
+
+        <div class="main">
+            <nav class="sidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Navigation</div>
+                    <button class="nav-btn active" data-page="home">Home</button>
+                    <button class="nav-btn" data-page="download">Download BOIII</button>
+                    <button class="nav-btn" data-page="legacy">Legacy BOIII</button>
+                    <button class="nav-btn" data-page="server">Create Server</button>
+                    <button class="nav-btn" data-page="verify">Verify Files</button>
+                    <button class="nav-btn" data-page="remover">BOIII Remover</button>
+                </div>
+
+                <div class="sidebar-divider"></div>
+
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Guides</div>
+                    <button class="nav-btn" data-page="friends">Play with Friends</button>
+                    <button class="nav-btn" data-page="boiiiwd">BOIIIWD Mods Tool</button>
+                    <button class="nav-btn" data-page="dlcs">BO3 DLCs Guide</button>
+                    <button class="nav-btn" data-page="languages">BO3 Languages</button>
+                    <button class="nav-btn" data-page="enhanced">BO3Enhanced Guide</button>
+                </div>
+
+                <div class="sidebar-divider"></div>
+
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Troubleshooting</div>
+                    <button class="nav-btn" data-page="wont_launch">Game Won't Launch</button>
+                    <button class="nav-btn" data-page="crashes">Game Crashes</button>
+                    <button class="nav-btn" data-page="memory">Memory Error</button>
+                    <button class="nav-btn" data-page="black_screen">Black Screen</button>
+                    <button class="nav-btn" data-page="stuttering">Stuttering</button>
+                    <button class="nav-btn" data-page="connection">Connection Issues</button>
+                    <button class="nav-btn" data-page="audio">Audio Issues</button>
+                    <button class="nav-btn" data-page="settings_reset">Settings Reset</button>
+                </div>
+            </nav>
+
+            <main class="content">
+                <div id="page-content"></div>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <span>Suggestions and feedback on Discord</span>
+            <span>© 2025 BOIII Tool - Created for the BOIII Community</span>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/pages/home.js"></script>
+    <script src="js/pages/download.js"></script>
+    <script src="js/pages/legacy.js"></script>
+    <script src="js/pages/server.js"></script>
+    <script src="js/pages/verify.js"></script>
+    <script src="js/pages/remover.js"></script>
+    <script src="js/pages/guides.js"></script>
+    <script src="js/pages/troubleshoot.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            App.init();
+        });
+    </script>
+</body>
+</html>
