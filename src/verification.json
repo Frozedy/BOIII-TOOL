@@ -4,8 +4,8 @@
         "redist": {
             "displayName": "redist",
             "show": false,
-            "required": true,
-            "defaultEnabled": true,
+            "required": false,
+            "defaultEnabled": false,
             "totalSize": 122196239
         },
         "base": {

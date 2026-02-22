@@ -134,13 +134,13 @@ PageInit.verify = () => {
         document.querySelectorAll('.comp-checkbox').forEach(cb => { cb.checked = true; });
     });
     document.getElementById('btn-select-mp').addEventListener('click', () => {
-        setComponents(['base', 'redist', 'dlc']);
+        setComponents(['base', 'dlc']);
     });
     document.getElementById('btn-select-zm').addEventListener('click', () => {
-        setComponents(['base', 'redist', 'zc', 'dlc']);
+        setComponents(['base', 'zc', 'dlc']);
     });
     document.getElementById('btn-select-cp').addEventListener('click', () => {
-        setComponents(['base', 'redist', 'sp']);
+        setComponents(['base', 'sp']);
     });
 
     // Load manifest
